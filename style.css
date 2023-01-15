@@ -1,0 +1,32 @@
+#header {
+    height: 100px;
+    width: 100%;
+}
+
+#menu {
+    height: 100px;
+    width: 100%;
+}
+
+#picture {
+    height: 500px;
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+}
+
+
+.bg-orange {
+    background-color:#ea5300;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-grey {
+    background-color: #303030;
+}
