@@ -6,6 +6,18 @@
 #menu {
     height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+}
+
+#menu li {
+    margin: 10px;
 }
 
 #picture {
@@ -18,9 +30,13 @@
     width: 100%;
 }
 
+.menu-item {
+
+    height: 100%;
+}
 
 .bg-orange {
-    background-color:#ea5300;
+    background-color: #ea5300;
 }
 
 .bg-red {
