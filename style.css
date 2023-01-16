@@ -1,18 +1,21 @@
+body,
+div,
+p {
+    margin: 0;
+}
+
 #header {
-    height: 100px;
+    height: 7%;
     width: 100%;
 }
 
 #header img {
-    height: 100px;
+    height: 100%;
+
 }
 
 #menu {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 7%;
 }
 
 #menu ul {
@@ -20,8 +23,17 @@
     display: flex;
     font-family: spyagency, Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 28px;
-    padding: 0;
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#menu li {
+    margin: 0 2em;
 }
 
 #menu a {
@@ -29,18 +41,14 @@
     text-decoration: none;
 }
 
-#menu li {
-    margin: 3%;
-    padding: 15px 32px;
-}
 
 .underline {
     text-decoration: underline;
     text-decoration-thickness: 0.2em;
- }
+}
 
 #picture {
-    height: 600px;
+    height: 25em;
     width: 100%;
 }
 
@@ -59,18 +67,20 @@
 
 h1 {
     font-family: spyagency, Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 400%;
     text-align: center;
     margin-top: 0px;
     color: #ea5300;
 }
 
 #content p {
-    margin-left: 300px;
-    margin-right: 300px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 25px
+    font-size: 100%;
+}
+
+.container-text {
+    padding: 0 30%;
 }
 
 .menu-item {
