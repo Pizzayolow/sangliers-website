@@ -3,13 +3,16 @@
     width: 100%;
 }
 
+#header img {
+    height: 100px;
+}
+
 #menu {
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #menu ul {
@@ -21,14 +24,20 @@
     padding: 0;
 }
 
+#menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
 #menu li {
     margin: 3%;
+    padding: 15px 32px;
 }
 
 .underline {
     text-decoration: underline;
     text-decoration-thickness: 0.2em;
-}
+ }
 
 #picture {
     height: 600px;
@@ -53,7 +62,7 @@ h1 {
     font-size: 60px;
     text-align: center;
     margin-top: 0px;
-    color: #FF0059;
+    color: #ea5300;
 }
 
 #content p {
