@@ -21,7 +21,14 @@
 }
 
 #picture {
-    height: 500px;
+    height: 600px;
+    width: 100%;
+}
+
+#picture img {
+    object-position: 10% 40%;
+    object-fit: cover;
+    height: 100%;
     width: 100%;
 }
 
