@@ -1,4 +1,7 @@
-body { background-color: #303030; }
+body {
+    background-color: #303030;
+}
+
 body,
 div,
 p {
@@ -6,13 +9,13 @@ p {
 }
 
 #header {
+    display: flex;
+    justify-content: space-between;
     height: 70px;
-    width: 100%;
 }
 
 #header img {
     height: 100%;
-
 }
 
 #menu {
@@ -62,7 +65,7 @@ p {
 
 #content {
     padding-top: 100px;
-     width: 100%;
+    width: 100%;
 }
 
 h1 {
