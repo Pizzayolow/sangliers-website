@@ -89,45 +89,13 @@ h1 {
 #twitch {
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 #twitch-embed {
     flex-grow: 1;
 }
 
-.container-md {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (min-width: 768px) {
-    .container-md {
-        max-width: 720px;
-    }
-}
-
-.container-lg {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.container-fluid {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (min-width: 992px) {
-    .container-lg {
-        max-width: 960px;
-    }
-}
 
 .menu-item {
 
@@ -139,7 +107,7 @@ ul.container-card.leaders {
 }
 
 .container-card {
-    display :flex;
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 50px;
@@ -166,13 +134,14 @@ ul.container-card {
     bottom: 0;
     width: 100%;
     text-align: center;
-    color: orangered;
+    font-size: 14px;
+    color: white;
     -webkit-text-stroke: 0.5px #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: rgba(202,202,202,0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     overflow-wrap: break-word;
-    }
+}
 
 .container-card li img {
     object-fit: cover;
@@ -196,4 +165,70 @@ ul.container-card {
 @font-face {
     font-family: 'spyagency';
     src: url('spyagency.ttf') format('truetype');
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+
+    .container-sm,
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
 }
