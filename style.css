@@ -121,7 +121,7 @@ ul.container-card {
 }
 
 .container-card li {
-    border: 2px solid white;
+    border: 2px solid grey;
     width: 150px;
     height: 190px;
     border-radius: 10px;
