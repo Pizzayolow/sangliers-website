@@ -129,6 +129,14 @@ ul.container-card {
     position: relative;
 }
 
+.page-portfolio {
+    padding-top: 20;
+    background: linear-gradient(to top right, #303030 0%, #242424 100%); 
+    padding-bottom: 20;
+    box-shadow: 0 0 10px 8px #242323;
+    
+}
+
 .card-title {
     position: absolute;
     bottom: 0;
