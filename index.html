@@ -1,5 +1,54 @@
-<hmtl>
-    <body>
-        
-    </body>
-</hmtl>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header" class="container-lg">
+        <div>
+            <img src="banniere.png">
+        </div>
+        <div class="social">
+            <a href="https://discord.gg/JRkjbgA3XX" target="_blank" rel="noopener noreferrer">
+                <img
+                    src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0b5493894cf60b300587_full_logo_white_RGB.svg">
+            </a>
+        </div>
+    </div>
+
+    <nav id="menu" class="bg-orange">
+        <ul>
+            <li class="underline"> ACCUEIL</li>
+            <li><a href="team.html">TEAM</a></li>
+            <li>EVENEMENTS</li>
+            <li>GALERIE</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+
+    <div id="twitch" class="container-fluid">
+        <!--ici nous mettrons la liste des streameurs LIVE-->
+        <div id="twitch-embed"></div>
+    </div>
+    <div id="content">
+        <div class="container-md">
+            <h1>NOS LIVE</h1>
+            <p>l'équipe sanglier est composé de plusieurs streameur!
+                que tu pourras retrouver ici,
+                N'hésites pas a t'abonner pour soutenir l'équipe et la chaine !
+            </p>
+        </div>
+    </div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+            width: "100%",
+            height: 667,
+            channel: "crymx",
+            parent: ["localhost"]
+        });
+    </script>
+</body>
+
+</html>

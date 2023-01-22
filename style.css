@@ -1,0 +1,241 @@
+body {
+    background-color: #303030;
+}
+
+body,
+div,
+p {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+#header img {
+    height: 100%;
+}
+
+#header .social {
+    height: 40%;
+}
+
+#menu {
+    height: 70px;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    font-family: spyagency, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#menu li {
+    margin: 0 2em;
+}
+
+#menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+}
+
+#picture {
+    height: 25em;
+    width: 100%;
+}
+
+#picture img {
+    object-position: 10% 40%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#content {
+    width: 100%;
+}
+
+h1 {
+    font-family: spyagency, Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 0px;
+    color: #ea5300;
+}
+
+#content p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 100%;
+}
+
+#twitch {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#twitch-embed {
+    flex-grow: 1;
+}
+
+
+.menu-item {
+
+    height: 100%;
+}
+
+ul.container-card.leaders {
+    margin-bottom: 40px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+ul.container-card {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.container-card li {
+    border: 2px solid grey;
+    width: 150px;
+    height: 190px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.page-portfolio {
+    padding-top: 20;
+    background: linear-gradient(to top right, #303030 0%, #242424 100%); 
+    padding-bottom: 20;
+    box-shadow: 0 0 10px 8px #242323;
+    
+}
+
+.card-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    -webkit-text-stroke: 0.5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow-wrap: break-word;
+}
+
+.container-card li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-orange {
+    background-color: #ea5300;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-grey {
+    background-color: #303030;
+}
+
+@font-face {
+    font-family: 'spyagency';
+    src: url('spyagency.ttf') format('truetype');
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+
+    .container-sm,
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
+}
